@@ -3,7 +3,7 @@ from telethon.sessions import StringSession
 import os
 APP_ID = os.environ.get("APP_ID")
 APP_HASH = os.environ.get("APP_HASH")
-B
+
 session = os.environ.get("TERMUX")
 SESSION = os.environ.get("TERMUX")
 
