@@ -1,3 +1,4 @@
+import time
 import datetime
 from telethon.tl.functions.messages import GetHistoryRequest
 from telethon.tl.functions.channels import JoinChannelRequest
