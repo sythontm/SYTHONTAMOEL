@@ -15,34 +15,6 @@ c = requests.session()
 bot_username = '@t06bot'
 bot_usernamee = '@A_MAN9300BOT'
 
-y = datetime.datetime.now().year
-m = datetime.datetime.now().month
-dayy = datetime.datetime.now().day
-day = datetime.datetime.now().strftime("%A")
-m9zpi = f"{y}-{m}-{dayy}"
-sec = time.time()
-
-LOGS = logging.getLogger(__name__)
-
-DEVS = [
-    5159123009,
-]
-DEL_TIME_OUT = 10
-normzltext = "1234567890"
-namerzfont = normzltext
-name = "Profile Photos"
-time_name = ["off"]
-time_bio = ["off"]
-
-
-async def join_channel():
-    try:
-        await sython(JoinChannelRequest("@saythonh"))
-    except BaseException:
-        pass
-
-
-
 
 
 
