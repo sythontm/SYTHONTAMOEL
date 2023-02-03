@@ -25,12 +25,7 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ WELCOME TO SOURCE SYTHON
-☆ VERSION : 1.3
-☆ PING : `{ms}`
-☆ DATE : `{m9zpi}`
-☆ ID : `{event.sender_id}`
-☆ SOURCE SYTHON : @SAYTHONH**
+السورس يعمل 
 
 -قـم بأرسال `.الاوامر`
 ''')
