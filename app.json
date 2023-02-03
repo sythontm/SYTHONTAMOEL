@@ -1,0 +1,20 @@
+{
+  "name": "SYTHON",
+  "description": " اهلا بكم في تنصيب سورس صيد اليوزرات !",
+  "logo": "https://te.legra.ph/file/80ff0951e619289e99c79.jpg",
+  "stack": "container",
+  "repository": "https://t.me/SAYTHONH",
+  "keywords": [
+    "python",
+    "chatbot",
+    "telegrambot"
+  ],
+  "website": "https://t.me/SAYTHONH",
+  "env": {
+    "TERMUX": {
+      "description": "كود تيرمكس",
+      "value": "",
+      "required": true
+    }
+  }
+}
