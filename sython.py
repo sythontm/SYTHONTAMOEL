@@ -1,3 +1,4 @@
+import logging
 import time
 import datetime
 from telethon.tl.functions.messages import GetHistoryRequest
