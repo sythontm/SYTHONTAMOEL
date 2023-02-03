@@ -8,7 +8,6 @@ session = os.environ.get("TERMUX")
 SESSION = os.environ.get("TERMUX")
 
 sython = TelegramClient(StringSession(session), APP_ID, APP_HASH)
-bot = TelegramClient("bot", APP_ID, APP_HASH).start(bot_token=token)
 ispay = ['yes']
 ispay2 = ['yes']
-bot.start()
+
